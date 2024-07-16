@@ -1,0 +1,31 @@
+.menu-link{
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 3px solid white;
+  color: black;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.menu-link:hover,
+.menu-link:active,
+.menu-link.active{
+  border-bottom: 3px solid yellowgreen;
+  text-decoration: none;
+  color: yellowgreen
+}
+
+.menu-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.menu-wrapper {
+  display: flex;
+  gap: 1rem; /* Adjust the gap as needed */
+  justify-content: center;
+  padding: 1rem; /* Adjust the padding as needed */
+}
+
+
+
